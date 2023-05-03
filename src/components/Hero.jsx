@@ -1,5 +1,7 @@
 import React from 'react';
 import Typed from 'react-typed';
+import girl from '../assets/20230430_192918.png'
+
 const Hero = () => {
   return (
     <div className="bg-black  text-white">
@@ -29,8 +31,12 @@ const Hero = () => {
         <button className="bg-orange-500 w-[9rem] rounded-md font-medium my-6 mx-auto py-3 hover:bg-transparent hover:border-orange-500 hover:border hover:text-orange-500 text-black bg-im">
           DOWNlOAD
         </button>
+        < />
       </div>
-      <div className=" max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center bg-[url('../assets/20230430_192918.png')]"></div>
+      <div
+        className=" max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center "
+        style="background-image: img src={girl} alt='text';"
+      ></div>
     </div>
   );
 };
