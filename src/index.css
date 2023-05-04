@@ -18,6 +18,14 @@ code {
     monospace;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
 .Navbar {
   position: fixed;
 }

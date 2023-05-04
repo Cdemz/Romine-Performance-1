@@ -33,7 +33,7 @@ const Member = () => {
             towards a healthier, happier you today
           </p>
           <button
-            data-aos="zoom-in-up"
+            data-aos="zoom-in"
             className="px-8 py-2 bg-orange-500 rounded-lg font-bold "
           >
             BECOME A MEMBER

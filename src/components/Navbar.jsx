@@ -12,13 +12,13 @@ const Navbar = () => {
   };
 
   return (
-    <div class="z-20 bg-black flex justify-between items-center text-white h-24 max-w-[1240px] mx-auto p-1 ">
-      <div className="z-20 fixed flex justify-between items-center bg-black w-[98%] max-w-[1240px] mx-auto h-24 ">
-        <div class="text-white flex items-center ">
+    <div class="z-20 bg-black flex justify-between items-center text-white h-24 max-w-[1240px] mx-auto  ">
+      <div className="z-20 fixed flex justify-between items-center bg-black w-full max-w-[1240px] mx-auto h-24 ">
+        <div class="text-white flex items-center px-2 ">
           <img src={logo1} alt="company-logo" class="h-12" />
           <h2 class="font-raleway font-bold">ROMINE PERFORMANCE</h2>
         </div>
-        <ul class="uppercase md:flex hidden">
+        <ul class="uppercase md:flex hidden mr-4">
           <li className="p-4">home</li>
           <li className="p-4">classes</li>
           <li className="p-4">about</li>
@@ -27,7 +27,7 @@ const Navbar = () => {
         </ul>
         <div
           onClick={handleNav}
-          className="md:hidden font-bold text-orange-500 "
+          className="md:hidden font-bold text-orange-500 mr-4 "
         >
           {!nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
         </div>
