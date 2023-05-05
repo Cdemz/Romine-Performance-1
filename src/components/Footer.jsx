@@ -33,18 +33,18 @@ const Footer = () => {
                 class="text-orange-500 bg-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
                 type="button"
               >
-                <i>
+                <p>
                   <FaTwitter />
-                </i>
+                </p>
               </button>
               <a href="https://www.facebook.com/rominefitness" target="_blank">
                 <button
                   class="text-orange-500 bg-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
                   type="button"
                 >
-                  <i>
+                  <p>
                     <FaFacebookF />
-                  </i>
+                  </p>
                 </button>
               </a>
 
@@ -53,9 +53,9 @@ const Footer = () => {
                   class="text-orange-500 bg-white shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
                   type="button"
                 >
-                  <i>
+                  <p>
                     <FaInstagram />
-                  </i>
+                  </p>
                 </button>
               </a>
             </div>

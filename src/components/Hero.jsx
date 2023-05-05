@@ -1,5 +1,4 @@
 import React from 'react';
-import Typed from 'react-typed';
 import girl from '../assets/20230430_192918.png';
 
 const Hero = () => {
@@ -22,15 +21,8 @@ const Hero = () => {
           </h1>
           <div className="md:texl-5xl sm-text-4xl text-xl font-bold flex gap-1 justify-center items-center">
             <p className="md:text-5xl sm:text-4xl text=xl font-bold">
-              Top-of-the-
+              Top-of-the-line equipment & gym culture
             </p>
-            <Typed
-              className="md:text-5xl sm:text-4xl text=xl font-bold uppercase md:p-4 pl-2"
-              strings={['line equipment', 'expert trainers', 'gym culture ']}
-              typeSpeed={120}
-              backSpeed={140}
-              loop
-            />
           </div>
           <p className="md:text-2xl text-xl font-bold text-gray-400">
             Download our complete brochure to get started today!.

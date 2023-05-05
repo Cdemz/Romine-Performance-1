@@ -5,19 +5,7 @@ const Info = () => {
     <div>
       contact
       <section class="pb-20 relative block bg-gray-500 text-white">
-        <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20">
-          <svg
-            class="absolute bottom-0 overflow-hidden"
-            xmlns="http://www.w3.org/2000/svg"
-            preserveAspectRatio="none"
-            version="1.1"
-            viewBox="0 0 2560 100"
-            x="0"
-            y="0"
-          >
-            <polygon points="2560 0 2560 100 0 100"></polygon>
-          </svg>
-        </div>
+        <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"></div>
         <div class="container mx-auto px-4 lg:pt-24 lg:pb-64 pb-20 pt-20">
           <div class="flex flex-wrap text-center justify-center">
             <div class="w-full lg:w-6/12 px-4">
